@@ -1,0 +1,73 @@
+---
+title: "Nobel Laureates Lab"
+author: "Team Name"
+date: today
+format: 
+    gfm: 
+      toc: true
+      toc-depth: 2
+      fig-height: 4
+      fig-width: 9
+editor: visual
+execute: 
+  echo: true
+  warning: false
+---
+
+```{r}
+#| label: setup
+#| include: false
+# This chunk loads packages and Nobel data silently
+library(tidyverse)
+nobel <- read_csv("data/nobel.csv")
+```
+
+Use this template to write up your answers to Exercises 1 through 6 in the Nobel Laureates Lab instructions.
+
+## Exercise 1
+
+```{r}
+#|label: first_ex
+
+```
+
+Remove this text, and add your answer for Exercise 1 here. Add code chunks as needed. Don't forget to label your code chunk. Do not use spaces in code chunk labels.
+
+### Exercise 2
+
+Remove this text, and add your answer for Exercise 2 here. Add code chunks as needed. Don't forget to label your code chunk. Do not use spaces in code chunk labels.
+
+```{r}
+#|label: ex2
+
+```
+
+### Exercise 3
+
+Remove this text, and add your answer for Exercise 3 here. Add code chunks as needed. Don't forget to label your code chunk. Do not use spaces in code chunk labels.
+
+```{r}
+#|label: ex3
+
+```
+
+### Exercise 4
+
+```{r}
+#|label: ex4
+
+```
+
+### Exercise 5
+
+```{r}
+#|label: ex5
+
+```
+
+### Exercise 6
+
+```{r}
+#|label: ex6
+
+```
